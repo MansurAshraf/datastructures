@@ -1,16 +1,16 @@
 apply plugin: 'java'
-
+apply plugin: 'idea'
 defaultTasks 'test'
 
-repositories{
-	mavenCentral()
+repositories {
+    mavenCentral()
 }
 
-dependencies{
-	compile "junit:junit:4.11"
-	compile 'org.easytesting:fest-assert-core:2.0M8' 
-	compile 'log4j:log4j:1.2.17'
+dependencies {
+    compile "junit:junit:4.11"
+    compile 'org.easytesting:fest-assert-core:2.0M8'
+    compile 'log4j:log4j:1.2.17'
     compile 'org.slf4j:slf4j-api:1.7.2'
     compile 'org.slf4j:slf4j-log4j12:1.7.2'
-                                       
+
 }
