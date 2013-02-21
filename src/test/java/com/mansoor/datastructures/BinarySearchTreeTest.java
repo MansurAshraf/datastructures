@@ -25,7 +25,6 @@ public class BinarySearchTreeTest {
         tree.put(6, "Jibraan");
         tree.put(1, "Abbu");
         tree.put(2, "Amee");
-
         assertThat(tree.get(-1)).isNull();
         assertThat(tree.get(5)).isEqualTo("Bilaal");
 
